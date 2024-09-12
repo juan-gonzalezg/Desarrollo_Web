@@ -1,0 +1,19 @@
+body{
+   background-color: lightgray;
+}
+
+section{
+   background-image: url(/Faq_Collapse_day_12/imagen/pawel-czerwinski-VhG_oPx5CEY-unsplash.jpg);
+   border: 1px solid;
+   border-radius: 15px;
+   padding-left: 20px;
+}
+
+img{
+   width: 20px;
+}
+
+button{
+   background-color: transparent;
+   border: none;
+}

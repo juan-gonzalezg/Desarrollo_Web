@@ -1,0 +1,14 @@
+body{
+   background-color: cornflowerblue;
+}
+
+.contenedor{
+   color: white;
+   width: 500px;
+}
+
+textarea{
+   border: 1px solid;
+   width: 500px;
+   height: 200px;
+}
