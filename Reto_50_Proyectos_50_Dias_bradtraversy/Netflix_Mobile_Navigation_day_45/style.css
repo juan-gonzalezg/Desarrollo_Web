@@ -1,0 +1,62 @@
+body{
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+div,
+aside{
+   width: 325px;
+   height: 100%;
+   border: 1px solid;
+   position: fixed;
+   left: 0;
+   background-color: white;
+}
+#black{
+   background-color: black;
+   width: 345px;
+}
+#red{
+   background-color: red;
+   width: 335px;
+}
+header{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   padding-top: 30px;
+   align-items: center;
+}
+button{
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   border: none;
+   cursor: pointer;
+}
+img{
+   width: 100%;
+}
+.logo{
+   width: 50px;
+   border-radius: 10px;
+}
+ul{
+   margin-left: -15px;
+}
+li{
+   list-style: none;
+   padding-top: 15px;
+}
+a{
+   text-decoration: none;
+   color: black;
+}
+#menu{
+   position: fixed;
+   top: 0;
+   left: 0;
+}
