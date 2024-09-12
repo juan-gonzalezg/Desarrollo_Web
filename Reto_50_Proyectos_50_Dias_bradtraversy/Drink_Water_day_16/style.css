@@ -1,0 +1,44 @@
+body{
+   background-color: cornflowerblue;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   color: white;
+}
+
+h1, h3{
+   margin: 0;
+}
+
+#bottle{
+   border: 3px solid blue;
+   background-color: white;
+   width: 120px;
+   height: 325px;
+   border-radius: 0 0 30px 30px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   color: blue;
+}
+
+#glasses{
+   display: grid;
+   width: 190px;
+   height: 170px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.glass{
+   border: 3px solid blue;
+   background-color: white;
+   width: 40px;
+   height: 70px;
+   border-radius: 0 0 10px 10px;
+   text-align: center;
+   color: blue;
+}

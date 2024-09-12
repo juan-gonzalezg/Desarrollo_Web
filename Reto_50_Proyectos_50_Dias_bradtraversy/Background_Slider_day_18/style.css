@@ -1,0 +1,29 @@
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+}
+
+section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1100px;
+   height: 600px;
+}
+
+button{
+   background-color: transparent;
+   border: 2px solid orange;
+}
+
+img{
+   height: 100%;
+}
+
+.flecha{
+   height: 60px;
+}
