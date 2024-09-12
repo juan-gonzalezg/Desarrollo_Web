@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.page_left{
+    background: url(/Split_Landing_Page_day_7/imagen/cd56722db7b991b3d7a33f1bafd55f80d0ac553d.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page_right{
+    background: url(/Split_Landing_Page_day_7/imagen/6F3Vg5ah8vbS83GSikcND3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.button_left:hover{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.button_right:hover{
+    background-color: green;
+    color: white;
+    border-color: green;
+}
