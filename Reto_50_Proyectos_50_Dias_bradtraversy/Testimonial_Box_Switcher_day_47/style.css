@@ -1,0 +1,70 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   height: 100vh;
+}
+
+section{
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
+   background-color: blue;
+   border-radius: 15px;
+}
+
+div{
+   border: 2px solid white;
+   width: 400px;
+   margin-bottom: 15px;
+}
+
+#testimonial{
+   width: 100%;
+   padding: 0;
+   flex-direction: row;
+   align-items: start;
+}
+
+#quotation_marks_left,
+#quotation_marks_right{
+   width: 40px;
+   margin-top: 10px;
+}
+
+p{
+   width: 400px;
+   padding: 5px;
+}
+
+#user{
+   width: 275px;
+   flex-direction: row;
+   padding: 0;
+   gap: 10px;
+   margin-top: 15px;
+}
+
+#photo{
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+#datos{
+   width: 180px;
+   text-align: center;
+   padding: 0;
+}
+
+h1{
+   margin: 0;
+}
+
+p{
+   margin: 0;
+}
