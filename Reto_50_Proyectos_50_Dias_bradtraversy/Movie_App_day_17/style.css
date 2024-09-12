@@ -1,0 +1,57 @@
+body{
+   background-color: darkblue;
+   margin: 0;
+}
+
+header{
+   background-color: rgb(48, 48, 178);
+   height: 50px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+input{
+   height: 35px;
+   border: 3px solid darkblue;
+   border-radius: 15px;
+   background-color: rgb(48, 48, 178);
+   color: white;
+}
+
+main{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 40px;
+   padding: 15px;
+}
+
+section{
+   width: 250px;
+   color: white;
+   background-color: rgb(48, 48, 178);
+}
+
+div{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 10px;
+}
+
+img{
+   width: 100%;
+}
+
+h3{
+   background-color: darkblue;
+   color: orange;
+   width: 40px;
+   display: flex;
+   justify-content: center;
+}
+
+article{
+   background-color: white;
+   color: black;
+}
