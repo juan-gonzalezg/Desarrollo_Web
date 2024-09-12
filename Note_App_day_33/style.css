@@ -1,0 +1,48 @@
+body{
+   background-color: aqua;
+}
+button{
+   color: white;
+   display: flex;
+   align-items: center;
+   border: none;
+   background-color: lightgreen;
+}
+.note{
+   position: fixed;
+   top: 10px;
+   right: 10px;
+   height: 25px;
+   width: 90px;
+}
+img{
+   width: 20px;
+   height: 20px;
+   box-sizing: border-box;
+}
+section{
+   width: 300px;
+   height: 400px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   margin-top: 60px;
+}
+header{
+   width: 100%;
+   background-color: lightgreen;
+   display: flex;
+   justify-content: end;
+   margin-bottom: 15px;
+   height: 30px;
+}
+div{
+   display: flex;
+   gap: 10px;
+}
+textarea{
+   width: 90%;
+   height: 85%;
+   margin-left: 12px;
+   border: none;
+}
