@@ -1,0 +1,116 @@
+body{
+   margin: 0;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+}
+
+#contenedor{
+   display: flex;
+   flex-direction: column;
+   gap: 3px;
+}
+
+.linea{
+   display: flex;
+}
+
+div{
+   width: 15px;
+   height: 15px;
+   margin-inline: 2px;
+   background-color: rgba(255, 255, 255, 0.122);
+   transition: 2s ease;
+}
+
+.blue:hover{
+   transition-duration: 0s;
+   background-color: blue;
+}
+
+.brown:hover{
+   transition-duration: 0s;
+   background-color: brown;
+}
+
+.chocolate:hover{
+   transition-duration: 0s;
+   background-color: chocolate;
+}
+
+.coral:hover{
+   transition-duration: 0s;
+   background-color: coral;
+}
+
+.cyan:hover{
+   transition-duration: 0s;
+   background-color: cyan;
+}
+
+.fuchsia:hover{
+   transition-duration: 0s;
+   background-color: fuchsia;
+}
+
+.gold:hover{
+   transition-duration: 0s;
+   background-color: gold;
+}
+
+.gray:hover{
+   transition-duration: 0s;
+   background-color: gray;
+}
+
+.green:hover{
+   transition-duration: 0s;
+   background-color: green;
+}
+
+.orange:hover{
+   transition-duration: 0s;
+   background-color: orange;
+}
+
+.pink:hover{
+   transition-duration: 0s;
+   background-color: pink;
+}
+
+.purple:hover{
+   transition-duration: 0s;
+   background-color: purple;
+}
+
+.red:hover{
+   transition-duration: 0s;
+   background-color: red;
+}
+
+.salmon:hover{
+   transition-duration: 0s;
+   background-color: salmon;
+}
+
+.silver:hover{
+   transition-duration: 0s;
+   background-color: silver;
+}
+
+.turquoise:hover{
+   transition-duration: 0s;
+   background-color: turquoise;
+}
+
+.violet:hover{
+   transition-duration: 0s;
+   background-color: violet;
+}
+
+.yellow:hover{
+   transition-duration: 0s;
+   background-color: yellow;
+}

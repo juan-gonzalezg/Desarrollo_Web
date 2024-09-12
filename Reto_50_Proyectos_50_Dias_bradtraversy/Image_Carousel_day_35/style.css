@@ -1,0 +1,41 @@
+body{
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+#carousel{
+   width: 400px;
+   height: 500px;
+   box-shadow: 1px 1px 10px 5px rgb(192, 189, 189);
+   overflow: hidden;
+}
+
+#photo{
+   display: flex;
+   height: 95%;
+}
+
+#botones{
+   display: flex;
+   justify-content: space-between;
+   position: sticky;
+   bottom: 0;
+}
+
+img{
+   width: 100%;
+}
+
+button{
+   width: 198px;
+   height: 25px;
+   border-radius: 0;
+   border: none;
+   background-color: blue;
+   color: white;
+   cursor: pointer;
+}
